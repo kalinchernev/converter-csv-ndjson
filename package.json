@@ -1,0 +1,19 @@
+{
+  "name": "converter-csv-ndjson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "serverless deploy -v"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.392.0",
+    "csv-parse": "^4.3.1",
+    "serverless": "^1.36.3",
+    "stream": "^0.0.2",
+    "stream-transform": "^1.0.8"
+  }
+}
